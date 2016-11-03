@@ -2,8 +2,7 @@
 
 ***Request data :*** 
 
-```
-#!json
+```json
 
 {
   "method":"Auth",
@@ -56,8 +55,7 @@
 ***Response data :*** 
 
 
-```
-#!json
+```json
 
 {
   "method":"Auth",
