@@ -2,8 +2,7 @@
 
 ***Request data :*** 
 
-```
-#!json
+```json
 
 {
   "method":"AddPurchase",
@@ -34,8 +33,7 @@
 ***Response data :*** 
 
 
-```
-#!json
+```json
 
 {
   "method":"AddPurchase",
