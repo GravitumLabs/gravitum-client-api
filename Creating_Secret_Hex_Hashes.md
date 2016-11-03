@@ -1,7 +1,7 @@
-**Examples of creating hex hashes using HMAC SHA256 in different languages **
+####Examples of creating hex hashes using HMAC SHA256 in different languages ####
 
 
-Result for each language should be 
+Result for each language should look like 
 
 559568a5a6da9adf750830822124b8294f8374d39a977b5ee1595105bf19b762
 
