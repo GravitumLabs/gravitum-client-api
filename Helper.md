@@ -125,8 +125,7 @@ Console.WriteLine(secretHash);
 
 #### Objective C ####
 
-
-```objective c
+```smalltalk
 
 #import <Foundation/Foundation.h>
 #import <CommonCrypto/CommonHMAC.h>
