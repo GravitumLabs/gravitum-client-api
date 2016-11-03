@@ -18,7 +18,7 @@ List of required header fields:
 
 ### Request structure ###
 
-Client should to put json object to the post field "data" or just to the post body
+Put json object into the post field "data" or directly to the post body
 
 ```json
 
