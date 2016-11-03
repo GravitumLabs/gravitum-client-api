@@ -30,6 +30,7 @@ secret_key = 'YOUR_SECRET_KEY'
 # Convert your data into json
 json_data = json.dumps ( data , sort_keys = True , indent = 4 , separators = (',' , ': ') )
 secret = hmac.new ( secret_key , json_data , hashlib.sha256 ).hexdigest ( )
+print secret
 ```
 
 #### PERL ####
