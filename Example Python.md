@@ -1,4 +1,3 @@
-#### PYTHON ####
 ```python
 # This is a simple example explaining how to
 # use the Gravitum REST API to register a device
