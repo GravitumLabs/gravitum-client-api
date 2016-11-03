@@ -12,7 +12,7 @@ Main server - https://apiv2.gravitum.com/init
 
 List of required header fields: 
 
-* secret - **required** - request secret, HMAC-SHA256 hex from request data with secret key
+* secret - **required** - request secret, HMAC-SHA256 hex from request data with secret key. See [code snippets](https://github.com/GravitumLabs/gravitum-client-api/blob/master/Creating_Secret_Hex_Hashes.md)
 * token - **required** - project token given by admin panel
 * platform - **required** - device platform (1 - ios, 2 - android)
 
