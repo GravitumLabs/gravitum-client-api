@@ -11,8 +11,7 @@ With a key = 'YOUR_SECRET_KEY' and data = 'YOUR_REQUEST_JSON_DATA'
 #### PHP ####
 
 
-```
-#!php
+```php
 <?php
 $secret_key = 'YOUR_SECRET_KEY';
 $json_data = 'YOUR_REQUEST_JSON_DATA';
@@ -25,8 +24,7 @@ echo $secret;
 #### PERL ####
 
 
-```
-#!perl
+```perl
 
 #!/usr/bin/perl
 # your code goes here
@@ -45,8 +43,7 @@ print "$secret";
 #### RUBY ####
 
 
-```
-#!ruby
+```ruby
 
 # your code goes here
 require 'openssl'
@@ -71,8 +68,7 @@ ref:
 
 http://mvnrepository.com/artifact/commons-codec/commons-codec/1.9
 
-```
-#!java
+```java
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
@@ -111,8 +107,7 @@ public class Api {
 
 #### C# ####
 
-```
-#!c#
+```c#
 
 string message = "YOUR_REQUEST_JSON_DATA";
 string key = "YOUR_SECRET_KEY";
@@ -131,8 +126,7 @@ Console.WriteLine(secretHash);
 #### Objective C ####
 
 
-```
-#!objective c
+```objective c
 
 #import <Foundation/Foundation.h>
 #import <CommonCrypto/CommonHMAC.h>
