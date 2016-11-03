@@ -3,7 +3,6 @@
 
 Main server - https://apiv2.gravitum.com/init
 
-Test server - https://api.gravitum.com/init
 
 ### Request type ###
 
@@ -21,9 +20,7 @@ List of required header fields:
 
 Client should to put json object to the post field "data" or just to the post body
 
-```
-#!json
-
+```json
 
 {
     "method":"Auth",
@@ -46,8 +43,7 @@ Client should to put json object to the post field "data" or just to the post bo
 ### Response structure ###
 
 
-```
-#!json
+```json
 
 {
     "method":"Auth",
