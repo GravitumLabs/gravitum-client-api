@@ -76,6 +76,4 @@ curl_setopt_array($curl, array(
  */
 echo curl_exec($curl);
 
-
-
 ```
