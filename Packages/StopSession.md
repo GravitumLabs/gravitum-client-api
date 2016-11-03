@@ -2,8 +2,7 @@
 
 ***Request data :*** 
 
-```
-#!json
+```json
 
 {
   "method":"StopSession",
@@ -26,8 +25,7 @@
 ***Response data :*** 
 
 
-```
-#!json
+```json
 
 {
   "method":"StartSession",
