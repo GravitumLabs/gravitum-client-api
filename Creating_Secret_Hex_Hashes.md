@@ -26,7 +26,7 @@ echo $secret;
 import json , hmac , hashlib
 # Setup Authentication information
 # This is available on the admin.gravitum.com dashboard for your game
-secret_key = '461b43e0dbe220a54987aa022d3863c16ecfa37f7e8bbeed55732b11d0cb40c4'
+secret_key = 'YOUR_SECRET_KEY'
 # Convert your data into json
 json_data = json.dumps ( data , sort_keys = True , indent = 4 , separators = (',' , ': ') )
 secret = hmac.new ( secret_key , json_data , hashlib.sha256 ).hexdigest ( )
