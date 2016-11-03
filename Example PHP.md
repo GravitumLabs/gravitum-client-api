@@ -1,8 +1,7 @@
 ### Example how to send first request to API server on PHP ###
 
 
-```
-#!php
+```php
 
 <?php
 /**
