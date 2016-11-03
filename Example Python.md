@@ -20,8 +20,8 @@ def sendGravitumRequest(url,data,token,secret,platform):
 
 # Setup Authentication information
 # This is available on the admin.gravitum.com dashboard for your game
-token = 'c4d6a001256f1fbc59dc4f2c283c28fd'
-secret = '461b43e0dbe220a54987aa022d3863c16ecfa37f7e8bbeed55732b11d0cb40c4'
+token = 'c4d6a001256f1fbc59dc4f2c283cabcd'
+secret = '461axxe0dbe220a54987aa022d3863c16ecfa37f7e8bbeed55732b11d0cb1234'
 url = 'https://apiv2.gravitum.com/init'
 
 
