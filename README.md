@@ -1,5 +1,6 @@
 # gravitum-client-api
-REST API allowing devices to send events directly to Gravitum
+REST API allowing devices to send events in raw JSON directly to Gravitum through the REST API or you can use one of our SDKs to help you send the data to us.
+
 
 1. [Structure](https://github.com/GravitumLabs/gravitum-client-api/blob/master/Structure.md): Introduces the structure of a request.
 2. [Security](https://github.com/GravitumLabs/gravitum-client-api/blob/master/Creating_Secret_Hex_Hashes.md): How to use your app secret to encrypt all data sent to the server.
