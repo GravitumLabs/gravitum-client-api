@@ -67,6 +67,17 @@ start_session_data={
 session_server_id=ss_response['data']['session'] #Capture the current Gravitum session ID
 print 'Gravitum SessionID: '+ session_server_id
 
+#Set Custom user fields
+custom_user_data={
+  "method":"SetCustomFields",
+  "fields":
+           {
+              "user": user_server_id,
+              "fields": {"key":1234, "key2":"string","key3":True,"key4":12.34}
+           }
+}
+print sendGravitumRequest(url,custom_user_data,token,secret,platform)
+
 # Send a custom event
 custom_event_data={
   "method":"AddEvent",
