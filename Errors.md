@@ -16,6 +16,7 @@
 
 ## Validation errors ##
 
+* 200 - Missing required method field
 * 201 - Wrong field type, int required
 * 202 - Wrong field type, email required
 * 203 - Wrong field length, min
