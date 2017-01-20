@@ -2,8 +2,7 @@
 
 ***Request data :*** 
 
-```
-#!json
+```json
 
 {
   "method":"PushEvent",
@@ -30,8 +29,7 @@
 ***Response data :*** 
 
 
-```
-#!json
+```json
 
 {
   "method":"AddEvent",
